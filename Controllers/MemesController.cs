@@ -2,6 +2,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Mvc;
 using MemeAPI.Models;
 using System;
+using Microsoft.AspNetCore.Cors;
 
 namespace MemeAPI.Controllers
 {
@@ -10,6 +11,7 @@ namespace MemeAPI.Controllers
     /// </summary>
     [ApiController]
     [Route("api")]
+    [EnableCors("MemePolicy")]
     public class MemesController : ControllerBase
     {
         /// <summary>
