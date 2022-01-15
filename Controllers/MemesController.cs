@@ -22,7 +22,8 @@ namespace MemeAPI.Controllers
             new Meme{ Title = "Unlimited Power", Link = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLE5T60tHbSZn7BQZDZseb5wkGUfWW4hl1Og&usqp=CAU"},
             new Meme{ Title = "WTF", Link = "https://blog.hubspot.com/hubfs/how-to-make-a-meme.jpg"},
             new Meme{ Title = "Mercy - Penguin", Link = "https://preview.redd.it/fl49jyyyfn581.jpg?auto=webp&s=c605accdf0275d8255cb11db05dd665f2f157fae"},
-            new Meme{ Title = "TF2 Soldier", Link = "https://i.imgflip.com/3sit8k.jpg"}
+            new Meme{ Title = "TF2 Soldier", Link = "https://i.imgflip.com/3sit8k.jpg"},
+            new Meme{ Title = "Ricardo", Link = "https://img-9gag-fun.9cache.com/photo/aD46XL9_460s.jpg" }
         };
 
         private readonly ILogger<MemesController> _logger;
